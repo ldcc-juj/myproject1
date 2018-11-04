@@ -1,0 +1,21 @@
+.MailForm{
+    width: 768px;
+    padding: 1rem;
+    margin: 0 auto;
+    & input{
+        outline: none;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .textArea{
+        margin-top: 1rem;
+        .content{
+            height: 500px;
+            overflow-y: auto;
+        }
+    }
+    .buttonArea{
+        margin-top: 1rem;
+        text-align: right;
+    }
+}
